@@ -2,8 +2,14 @@ $side: ('t':'top', 's':'left' , 'e':'right', 'b':'bottom');
 
 @each $abr, $s in $side{
     @for $i from 0 to 250 {
+        .m-#{$i} {
+            margin: #{$i}px;
+        }
         .m#{$abr}-#{$i} {
             margin-#{$s}: #{$i}px;
+        }
+        .p-#{$i} {
+            padding: #{$i}px;
         }
         .p#{$abr}-#{$i} {
             margin-#{$s}: #{$i}px;
