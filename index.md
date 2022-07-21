@@ -90,6 +90,10 @@ p = position
 - b-**xx** (Desde 0 a 10, reemplazar **xx**) = border-width
 - b-radius-**xx** (Desde 0 a 10, reemplazar **xx**)
 
+### Centrar elemento
+
+- mx-auto
+
 ### Colors
 
 Los colores solo funcionan combinandolos con los prefijos de **text** o **bg** (text-**{color}** o bg-**{color}**)
