@@ -2,6 +2,10 @@
 
 Un Framework con los estilos básicos y algunas animaciones
 
+### CDN
+
+`<link rel="stylesheet" href="https://manuelitoys.github.io/frameworkCSS/frameworkCSS.css">`
+
 ### Animations
 
 - animate-fadeOut
