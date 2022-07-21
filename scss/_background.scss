@@ -1,0 +1,97 @@
+@import 'colors';
+.bg-red{
+    background-color: $red;
+}
+.bg-green{
+    background-color: $green;
+}
+.bg-blue{
+    background-color: $blue;
+}
+.bg-yellow{
+    background-color: $yellow;
+}
+.bg-orange{
+    background-color: $orange;
+}
+.bg-purple{
+    background-color: $purple;
+}
+.bg-pink{
+    background-color: $pink;
+}
+.bg-white{
+    background-color: $white;
+}
+.bg-black{
+    background-color: $black;
+}
+.bg-gray{
+    background-color: $gray;
+}
+.bg-transparent{
+    background-color: transparent;
+}
+.bg-cover{
+    background-size: cover;
+}
+.bg-contain{
+    background-size: contain;
+}
+.bg-repeat{
+    background-repeat: repeat;
+}
+.bg-no-repeat{
+    background-repeat: no-repeat;
+}
+.bg-repeat-x{
+    background-repeat: repeat-x;
+}
+.bg-repeat-y{
+    background-repeat: repeat-y;
+}
+.bg-p-center{
+    background-position: center;
+}
+.bg-p-top{
+    background-position: top;
+}
+.bg-p-bottom{
+    background-position: bottom;
+}
+.bg-p-left{
+    background-position: left;
+}
+.bg-p-right{
+    background-position: right;
+}
+.bg-p-top-left{
+    background-position: top left;
+}
+.bg-p-top-right{
+    background-position: top right;
+}
+.bg-p-bottom-left{
+    background-position: bottom left;
+}
+.bg-p-bottom-right{
+    background-position: bottom right;
+}
+.bg-p-center-left{
+    background-position: center left;
+}
+.bg-p-center-right{
+    background-position: center right;
+}
+.bg-p-top-center{
+    background-position: top center;
+}
+.bg-p-bottom-center{
+    background-position: bottom center;
+}
+.bg-p-left-center{
+    background-position: left center;
+}
+.bg-p-right-center{
+    background-position: right center;
+}

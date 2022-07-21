@@ -1,0 +1,91 @@
+@import 'colors';
+.text-red{
+    color: $red;
+}
+.text-green{
+    color: $green;
+}
+.text-blue{
+    color: $blue;
+}
+.text-yellow{
+    color: $yellow;
+}
+.text-orange{
+    color: $orange;
+}
+.text-purple{
+    color: $purple;
+}
+.text-pink{
+    color: $pink;
+}
+.text-white{
+    color: $white;
+}
+.text-black{
+    color: $black;
+}
+.text-gray{
+    color: $gray;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-nowrap{
+    white-space: nowrap;
+}
+.text-wrap{
+    white-space: wrap;
+}
+.text-wrap-reverse{
+    white-space: wrap-reverse;
+}
+.text-trim{
+    white-space: normal;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-lowercase{
+    text-transform: lowercase;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-overline{
+    text-decoration: overline;
+}
+.text-line-through{
+    text-decoration: line-through;
+}
+.text-thickness{
+    text-decoration-thickness: from-font;
+}
+.text-none{
+    text-decoration: none;
+}
+@for $i from 1 to 10 {
+    .text-ellipsis-#{$i}{
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: #{$i};
+    }
+    .text-d-offset-#{$i}{
+        text-decoration-offset: #{$i}px;
+    }
+}
