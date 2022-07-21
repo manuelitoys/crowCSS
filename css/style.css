@@ -16543,103 +16543,103 @@
   mix-blend-mode: unset;
 }
 
-.border-solid {
+.b-solid {
   border-style: solid;
 }
 
-.border-dashed {
+.b-dashed {
   border-style: dashed;
 }
 
-.border-dotted {
+.b-dotted {
   border-style: dotted;
 }
 
-.border-double {
+.b-double {
   border-style: double;
 }
 
-.border-circle {
+.b-circle {
   border-radius: 50%;
 }
 
-.border-0 {
+.b-0 {
   border-width: 0px;
 }
 
-.border-radius-0 {
+.b-radius-0 {
   border-radius: 0px;
 }
 
-.border-1 {
+.b-1 {
   border-width: 1px;
 }
 
-.border-radius-1 {
+.b-radius-1 {
   border-radius: 1px;
 }
 
-.border-2 {
+.b-2 {
   border-width: 2px;
 }
 
-.border-radius-2 {
+.b-radius-2 {
   border-radius: 2px;
 }
 
-.border-3 {
+.b-3 {
   border-width: 3px;
 }
 
-.border-radius-3 {
+.b-radius-3 {
   border-radius: 3px;
 }
 
-.border-4 {
+.b-4 {
   border-width: 4px;
 }
 
-.border-radius-4 {
+.b-radius-4 {
   border-radius: 4px;
 }
 
-.border-5 {
+.b-5 {
   border-width: 5px;
 }
 
-.border-radius-5 {
+.b-radius-5 {
   border-radius: 5px;
 }
 
-.border-6 {
+.b-6 {
   border-width: 6px;
 }
 
-.border-radius-6 {
+.b-radius-6 {
   border-radius: 6px;
 }
 
-.border-7 {
+.b-7 {
   border-width: 7px;
 }
 
-.border-radius-7 {
+.b-radius-7 {
   border-radius: 7px;
 }
 
-.border-8 {
+.b-8 {
   border-width: 8px;
 }
 
-.border-radius-8 {
+.b-radius-8 {
   border-radius: 8px;
 }
 
-.border-9 {
+.b-9 {
   border-width: 9px;
 }
 
-.border-radius-9 {
+.b-radius-9 {
   border-radius: 9px;
 }
 
@@ -16679,39 +16679,39 @@
   display: grid;
 }
 
-.position-absolute {
+.p-absolute {
   position: absolute;
 }
 
-.position-relative {
+.p-relative {
   position: relative;
 }
 
-.position-fixed {
+.p-fixed {
   position: fixed;
 }
 
-.position-static {
+.p-static {
   position: static;
 }
 
-.position-sticky {
+.p-sticky {
   position: sticky;
 }
 
-.position-initial {
+.p-initial {
   position: initial;
 }
 
-.position-inherit {
+.p-inherit {
   position: inherit;
 }
 
-.position-unset {
+.p-unset {
   position: unset;
 }
 
-.position-center {
+.p-center {
   position: absolute;
   left: 50%;
   top: 50%;

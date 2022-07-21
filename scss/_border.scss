@@ -1,23 +1,23 @@
-.border-solid{
+.b-solid{
     border-style: solid;
 }
-.border-dashed{
+.b-dashed{
     border-style: dashed;
 }
-.border-dotted{
+.b-dotted{
     border-style: dotted;
 }
-.border-double{
+.b-double{
     border-style: double;
 }
-.border-circle{
+.b-circle{
     border-radius: 50%;
 }
 @for $i from 0 to 10 {
-    .border-#{$i}{
+    .b-#{$i}{
         border-width: #{$i}px;
     }   
-    .border-radius-#{$i}{
+    .b-radius-#{$i}{
         border-radius: #{$i}px;
     } 
 }
