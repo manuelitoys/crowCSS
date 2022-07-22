@@ -1,3 +1,4 @@
+@import 'mixin';
 .container {
     max-width: 100%;
     padding: 0 20px;
@@ -5,45 +6,45 @@
 .container-1440{
     width: 100%;
     max-width: 1440px;
-    margin: 0 auto;
+    @include center();
 }
 .container-1280{
     width: 100%;
     max-width: 1280px;
-    margin: 0 auto;
+    @include center();
 }
 .container-1024{
     width: 100%;
     max-width: 1024px;
-    margin: 0 auto;
+    @include center();
 }
 .container-960{
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    @include center();
 }
 .container-800{
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    @include center();
 }
 .container-768{
     width: 100%;
     max-width: 768px;
-    margin: 0 auto;
+    @include center();
 }
 .container-640{
     width: 100%;
     max-width: 640px;
-    margin: 0 auto;
+    @include center();
 }
 .container-480{
     width: 100%;
     max-width: 480px;
-    margin: 0 auto;
+    @include center();
 }
 .container-320{
     width: 100%;
     max-width: 320px;
-    margin: 0 auto;
+    @include center();
 }

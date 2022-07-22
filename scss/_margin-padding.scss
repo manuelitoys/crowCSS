@@ -1,3 +1,4 @@
+@import 'mixin';
 $side: ('t':'top', 's':'left' , 'e':'right', 'b':'bottom');
 
 @each $abr, $s in $side{
@@ -12,11 +13,10 @@ $side: ('t':'top', 's':'left' , 'e':'right', 'b':'bottom');
             padding: #{$i}px;
         }
         .p#{$abr}-#{$i} {
-            margin-#{$s}: #{$i}px;
+            padding-#{$s}: #{$i}px;
         }
     }
 }
 .mx-auto{
-    margin-left: auto;
-    margin-right: auto;
+    @include center();
 }
