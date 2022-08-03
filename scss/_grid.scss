@@ -37,6 +37,30 @@
 .ai-stretch{
     align-items: stretch;
 }
+.fd-column{
+    flex-direction: column;
+}
+.fd-row{
+    flex-direction: row;
+}
+.fd-wrap{
+    flex-wrap: wrap;
+}
+.fd-nowrap{
+    flex-wrap: nowrap;
+}
+.fd-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.fd-nowrap-reverse{
+    flex-wrap: nowrap-reverse;
+}
+.fd-column-reverse{
+    flex-direction: column-reverse;
+}
+.fd-row-reverse{
+    flex-direction: row-reverse;
+}
 @media(max-width: 640px){
     .row{
         flex-direction: column
