@@ -131,6 +131,14 @@ Todos los container van centrados
 ### Display
 
 - d-flex
+  - fd-column
+  - fd-row
+  - fd-wrap
+  - fd-nowrap
+  - fd-wrap-reverse
+  - fd-nowrap-reverse
+  - fd-column-reverse
+  - fd-row-reverse
 - d-inline-flex
 - d-inline
 - d-block
