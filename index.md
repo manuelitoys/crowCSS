@@ -129,6 +129,7 @@ Todos los container van centrados
 - container-320
 
 ### Display
+fd = "flex-direction"
 
 - d-flex
   - fd-column
